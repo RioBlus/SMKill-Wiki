@@ -1,0 +1,7 @@
+site_name: My Docs
+theme:
+  name: 'material'
+nav:
+  - 主页 : index.md
+  - 307wiki :
+      - 01陈成浩 : 307/01陈成浩.md
