@@ -1,7 +1,99 @@
-site_name: My Docs
+site_name: SMKill Wiki
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - mkdocs-audio
+  - glightbox
+  - search:
+      lang:
+        - en
+        - ja
+      separator: '[\s\-\.]+'
+  - encryptcontent:
+        title_prefix: '【锁定】'
+        summary: '请输入其关键的特征（单位kg）或者猜测姓名（未透露姓名时）以继续'
+        placeholder: '密码'
+        encryption_info_message: ""
+        password_button: True
+        password_button_text: '确定'
 theme:
   name: 'material'
 nav:
   - 主页 : index.md
-  - 307wiki :
+  - 307 :
       - 01陈成浩 : 307/01陈成浩.md
+      - 02陈泓楠 : 307/02陈泓楠.md
+      - 03陈元 : 307/03陈元.md
+      - 04陈梦霄 : 307/04陈梦霄.md
+      - 05陈子洪 : 307/05陈子洪.md
+      - 06邓梓俊 : 307/06邓梓俊.md
+      - 07董武兴 : 307/07董武兴.md
+      - 08杜浩邦 : 307/08杜浩邦.md
+      - 09冯绍雄 : 307/09冯绍雄.md
+      - 10郭烨 : 307/10郭烨.md
+      - 11何泳桁 : 307/11何泳桁.md
+      - 12黄俊钧 : 307/12黄俊钧.md
+      - 13黄俊开 : 307/13黄俊开.md
+      - 14黄守邦 : 307/14黄守邦.md
+      - 15黄正锐 : 307/15黄正锐.md
+      - 16邝文焯 : 307/16邝文焯.md
+      - 17李其原 : 307/17李其原.md
+      - 18梁毅燊 : 307/18梁毅燊.md
+      - 19刘德浠 : 307/19刘德浠.md
+      - 20罗锦丰 : 307/20罗锦丰.md
+      - 21满曜嘉 : 307/21满曜嘉.md
+      - 22孟琪焱 : 307/22孟琪焱.md
+      - 23潘逸朗 : 307/23潘逸朗.md
+      - 24宋昊阳 : 307/24宋昊阳.md
+      - 25谭智翔 : 307/25谭智翔.md
+      - 26唐千庭 : 307/26唐千庭.md
+      - 27万朗晖 : 307/27万朗晖.md
+      - 28魏达浩 : 307/28魏达浩.md
+      - 29翁灵智 : 307/29翁灵智.md
+      - 30吴泱毅 : 307/30吴泱毅.md
+      - 31冼贤江 : 307/31冼贤江.md
+      - 32叶伟旭 : 307/32叶伟旭.md
+      - 33许俊宏 : 307/33许俊宏.md
+      - 34于梓洋 : 307/34于梓洋.md
+      - 35余正熙 : 307/35余正熙.md
+      - 36喻政杰 : 307/36喻政杰.md
+      - 37张有洋 : 307/37张有洋.md
+      - 38赵翀 : 307/38赵翀.md
+      - 39周楚轩 : 307/39周楚轩.md
+      - 40周飞宇 : 307/40周飞宇.md
+      - 41周俊杰 : 307/41周俊杰.md
+      - 42朱彦行 : 307/42朱彦行.md
+      - 52陆恺瑶 : 307/52陆恺瑶.md
+      - 陈建澄 : 307/99陈建澄.md
+      - 钟子杰 : 307/99钟子杰.md
+      - 谢志乾 : 307/99谢志乾.md
+  - SP307:
+      - 三座大山 : SP307/三座大山.md
+      - 黄六鸡 : SP307/黄六鸡.md
+      - 四大天王 : SP307/四大天王.md
+      - 男同组合 : SP307/男同组合.md
+  - Teacher:
+      - 陈国毫 : tc/陈国毫.md
+      - 丁黎敏 : tc/丁黎敏.md
+      - 胡庆生 : tc/胡庆生.md
+      - 胡逸涵 : tc/胡逸涵.md
+      - 黄锡纯 : tc/黄锡纯.md
+      - 黎岗 : tc/黎岗.md
+      - 黎国坚 : tc/黎国坚.md
+      - 李卫东 : tc/李卫东.md
+      - 李玉屏 : tc/李玉屏.md
+      - 隐藏角色 : tc/隐藏角色.md
+      - 刘亚萍 : tc/刘亚萍.md
+      - 孟凡旭 : tc/孟凡旭.md
+      - 唐继勇 : tc/唐继勇.md
+      - 肖朝云 : tc/肖朝云.md
+      - 谢焕杰 : tc/谢焕杰.md
+      - 叶映菊 : tc/叶映菊.md
+      - 叶欲潇 : tc/叶欲潇.md
+      - 郭小强 : tc/郭小强.md
+      - 史果 : tc/史果.md
+      - 老邓 : tc/老邓.md
